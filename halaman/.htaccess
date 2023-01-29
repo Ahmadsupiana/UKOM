@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+
+RewriteRule ^$ halaman.php?pages=home [L]
+
+RewriteRule ^surat_masuk\.net$ halaman.php?pages=surat_masuk
+RewriteRule ^mata_lomba\.net$ halaman.php?pages=mata_lomba
+RewriteRule ^disposisi\.net$ halaman.php?pages=disposisi
+RewriteRule ^dasboard\.net$ halaman.php?pages=dasboard
+RewriteRule ^keterangan\.net$ halaman.php?pages=keterangan
+RewriteRule ^jenis_surat\.net$ halaman.php?pages=jenis_surat
+RewriteRule ^peserta\.net$ halaman.php?pages=peserta
+RewriteRule ^laporan\.net$ halaman.php?pages=laporan
+RewriteRule ^cari_data\.net$ halaman.php?pages=cari_data
+RewriteRule ^dasboard\.net$ halaman.php?pages=dasboard
+RewriteRule ^login\.net$ menu.php?pages=login
+
+
+
+
+
+
+
+
+
+Options All -Indexes
+
+</IfModule>

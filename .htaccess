@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^$ login.php?module=home [L]
+
+
+
+
+Options All -Indexes
+
+</IfModule>
